@@ -1,8 +1,8 @@
-﻿**Figma Profiles for Complaint Management System (GAD-3)**
+﻿# **Figma Profiles for Complaint Management System (GAD-3)**
 
-**(Mobile)**
+## **(Mobile)**
 
-1. **Complaint Management System:**
+### 1. **Complaint Management System:**
 
 The complaint management system by offering a comprehensive and efficient platform for students ,faculty and staff to register their concerns. Beyond simple registration, the system facilitates real-time tracking and visibility of complaints for respective authorities. The central complaint system is designed to efficiently manage and resolve issues pertaining to electricity, hostels, and cleanliness in each campus building. The primary goal of this software is to provide a swift and effective mechanism for addressing concerns raised by individuals within the campus community, ensuring a seamless resolution process. Additionally, it serves as a communication platform, facilitating a direct connection between users and the relevant Caretaker/Supervisor for each department.
 
@@ -10,7 +10,7 @@ The complaint management system by offering a comprehensive and efficient platfo
 
 FigmaLink:[https://www.figma.com/file/6BO0R8Aw4w1K4YDv66fehx/app_student-(Co py)?type=design&node-id=0%3A1&mode=design&t=tPq1CZUvVmxrsO8a-1](https://www.figma.com/file/6BO0R8Aw4w1K4YDv66fehx/app_student-\(Copy\)?type=design&node-id=0%3A1&mode=design&t=tPq1CZUvVmxrsO8a-1)
 
-2. **Actors**
+### 2. **Actors**
 
 ![](images/Aspose.Words.c680fd87-ba52-4a81-8be0-62bafce7ac5a.001.jpeg)
 
@@ -41,7 +41,7 @@ the list and proceed to assign a worker to address it.
 2. **Dimension Standardization:**
 - Ensure all Figma designs have the same dimensions: 1920 x 1080 for web and around 360px width for mobile.
 
-  **3.3Actor-oriented Use Case-Based Design:**
+  ### **3.3Actor-oriented Use Case-Based Design:**
 
 - Strictly base all Figma designs on the use cases of actors and maintain consistency with previous and newly added designs.
 
