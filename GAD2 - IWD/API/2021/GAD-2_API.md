@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 ﻿
+=======
+>>>>>>> b715db829bc44803a552c569957dfd6a60f1ac7a
 # GAD-2 IWD Module (Web)
 
 ### **Student Mentor**: Kushagra Yadav (21BCS121)
@@ -126,7 +129,11 @@ The module ensures:
 
 ## **Use Case Diagram**
 
+<<<<<<< HEAD
 ![GAD-2 IWD Use Case Diagram](images/GAD-2_UCD.jpg)
+=======
+![GAD-2 IWD Use Case Diagram](GAD-2_UCD.jpg)
+>>>>>>> b715db829bc44803a552c569957dfd6a60f1ac7a
 
 ---
 
