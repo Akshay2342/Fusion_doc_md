@@ -10,7 +10,7 @@ The System allows people to share, view, track, and forward files and can be use
 
 ### UC1# create_file
 
-The "create file" use case allows the employee to create a new file, give a description to it, attach files, and add remarks to it. The employee can then send the created file to another employee by entering their name and designation through the Fusion portal.
+The "create file" use case allows the employee to create a new file, give a description to it, attach files and add remarks to it. The employee can then send the created file to another employee by entering their name and designation through the Fusion portal.
 
 ### UC2# view_drafts
 
@@ -26,7 +26,7 @@ The view_outbox use case allows the user to view files that have been sent by th
 
 ### UC5# create_designation
 
-The create_designation use case allows the SA to create new users and assign designations to them.
+The create_designation use case allows the SA to create new users and assign designation to them.
 
 ### UC6# assign/update designation
 
@@ -40,9 +40,9 @@ Employees aim to use the system for managing various aspects of file creation, t
 
 #### Use Case for Employee (Staff)
 
-![Use Case for Employee (Staff)](images/Aspose.Words.f4b65dff-9c22-46e5-a108-89ad159f52ac.001.jpeg)
+![Employee Use Case](images/Aspose.Words.fb8a76fd-409d-4c4d-9a2b-a92333949dd3.001.jpeg)
 
-**Figma Profile:** [Employee](https://www.figma.com/file/oHcPnpdJgHgBhy2abHOQAt/FTS-mobile?type=design&node-id=0-1&mode=design&t=oZp3gsWetkhkqYue-0)
+**Web Figma Profile:** [Employee View Web](https://www.figma.com/file/khjAgboyK1ppY1YMiAGRPS/FILE-TRACKING---WEB?type=design&node-id=0%3A1&mode=design&t=9U9dIXcQq6u7Qz5k-1)
 
 ### 2. System Administrator
 
@@ -50,25 +50,17 @@ System Administrator aims to use the system to streamline file management proces
 
 #### Use Case for System Administrator
 
-![Use Case for System Administrator](images/Aspose.Words.f4b65dff-9c22-46e5-a108-89ad159f52ac.002.jpeg)
+![System Administrator Use Case](images/Aspose.Words.fb8a76fd-409d-4c4d-9a2b-a92333949dd3.002.jpeg)
 
-**Figma Profile:** [System Administrator](https://www.figma.com/file/oHcPnpdJgHgBhy2abHOQAt/FTS-mobile?type=design&node-id=531-37&mode=design&t=oZp3gsWetkhkqYue-0)
+**Figma Profile:** [SysAdmin Web](https://www.figma.com/file/khjAgboyK1ppY1YMiAGRPS/FILE-TRACKING---WEB?type=design&node-id=0-1&mode=design)
 
 ## Figma Profile Design Guidelines and Additional Considerations
 
 1. **Cross-Platform Compatibility:**
-   - Yes, Figma designs are compatible with both web and app versions.
+   - Yes, figma designs are compatible with both web and app versions.
 2. **Dimension Standardization:**
-   - Yes, all Figma designs have the dimensions around 360px width for mobile.
+   - Yes, all Figma designs have the correct Dimensions.
 
 ## 5.3 Actor-Oriented Use Case-Based Design
 
-- No Figma designs were made previously; we have made them from scratch.
-
-### Employee Use-Case Based Design
-
-[Employee Use-Case Based Design](https://www.figma.com/file/oHcPnpdJgHgBhy2abHOQAt/FTS-mobile?type=design&node-id=0-1&mode=design&t=oZp3gsWetkhkqYue-0)
-
-### System Administrator Use-Case Based Design
-
-[System Administrator Use-Case Based Design](https://www.figma.com/file/oHcPnpdJgHgBhy2abHOQAt/FTS-mobile?type=design&node-id=531-37&mode=design&t=oZp3gsWetkhkqYue-0)
+- No figma designs were made previously, we have made them from scratch.

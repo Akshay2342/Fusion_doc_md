@@ -1,136 +1,137 @@
-﻿**Module Name** - GAD 3 (Complaint MODULE) **Student Mentor** - Hardik Pratap Singh(21BCS090)
+﻿# **Module Name** - GAD 3 (Complaint Module)
 
-**API Documentation of GAD3 - Complaint Module Please mention all the APIs used in the module below**
+**Student Mentor** - Hardik Pratap Singh (21BCS090)
 
-1. **user/detail/complain\_id/** - Already implemented
-   1. parameters: complaint id
-   1. description: Get details of a particular complaint
-1. **newcomplain/** - Already implemented
-   1. Parameters: none
-   1. Description: Lodge a new complaint
-1. **studentcomplain/** - Already implemented
-   1. Parameters: none
-   1. Description: View complaints of the currently logged-in user
-1. **updatecomplain/complain\_id/** - Already implemented
-   1. Parameters: complaint id
-   1. Description: update a particular complaint
-1. **removecomplain/complain\_id** - Already implemented
-   1. Parameters: complaint id
-   1. Description: delete a particular complaint
-1. **workers/** - Already implemented
-   1. Parameters: none
-   1. Description: get a list of workers
-1. **addworker/ -** Already implemented
-   1. Parameters: none
-   1. Description: add a new worker
-1. **removeworker/worker\_id** - Already implemented
-   1. Parameters: worker id
-   1. Description: delete a particular worker
-1. **updateworker/worker\_id** - already implemented
-1. Parameter: worker\_id
-1. Description: update a particular worker’s details
+---
 
-10\.**caretakers/** - Already implemented
+## **API Documentation of GAD3 - Complaint Module**
 
-1. Parameter: none
-1. Description: Get the list of caretakers
+Please mention all the APIs used in the module below:
 
-11\.**addcaretaker/** - Already implemented
+1. **user/detail/complain_id/** - Already implemented  
+   - Parameters: complaint id  
+   - Description: Get details of a particular complaint
 
-1. Parameters: none
-1. Description: add a new caretaker
+2. **newcomplain/** - Already implemented  
+   - Parameters: none  
+   - Description: Lodge a new complaint
 
-12\.**removecaretaker/caretaker\_id**- Already implemented
+3. **studentcomplain/** - Already implemented  
+   - Parameters: none  
+   - Description: View complaints of the currently logged-in user
 
-1. Parameters: caretaker id
-1. Description: remove a caretaker
+4. **updatecomplain/complain_id/** - Already implemented  
+   - Parameters: complaint id  
+   - Description: Update a particular complaint
 
-13\.**updatecaretaker/caretaker\_id** - Already implemented
+5. **removecomplain/complain_id** - Already implemented  
+   - Parameters: complaint id  
+   - Description: Delete a particular complaint
 
-1. Parameters: caretaker id
-1. Description: update a caretaker
+6. **workers/** - Already implemented  
+   - Parameters: none  
+   - Description: Get a list of workers
 
-14\.**supervisors/** - Already implemented
+7. **addworker/** - Already implemented  
+   - Parameters: none  
+   - Description: Add a new worker
 
-1. Parameters: none
-1. Description: get a list of supervisors
+8. **removeworker/worker_id** - Already implemented  
+   - Parameters: worker id  
+   - Description: Delete a particular worker
 
-15\.**addsupervisor/** - Already implemented
+9. **updateworker/worker_id** - Already implemented  
+   - Parameters: worker_id  
+   - Description: Update a particular worker’s details
 
-1. Parameters : none
-1. Description : to add a new supervisor
+10. **caretakers/** - Already implemented  
+    - Parameters: none  
+    - Description: Get the list of caretakers
 
-16\.**removesupervisor/supervisor\_id** - Already implemented
+11. **addcaretaker/** - Already implemented  
+    - Parameters: none  
+    - Description: Add a new caretaker
 
-1. Parameters: supervisor id
-1. Description: remove a supervisor
+12. **removecaretaker/caretaker_id** - Already implemented  
+    - Parameters: caretaker id  
+    - Description: Remove a caretaker
 
-**17.update supervisor/supervisor\_id -** Already implemented
+13. **updatecaretaker/caretaker_id** - Already implemented  
+    - Parameters: caretaker id  
+    - Description: Update a caretaker
 
-1. Parameters: supervisor id
-1. Description: update a particular supervisor
+14. **supervisors/** - Already implemented  
+    - Parameters: none  
+    - Description: Get a list of supervisors
 
-**Overview of the module:-** The central complaint system is designed to efficiently manage and resolve issues about electricity, hostels, and cleanliness in each campus building. The primary goal of this software is to provide a swift and effective mechanism for addressing concerns raised by individuals within the campus community, ensuring a seamless resolution process. Additionally, it serves as a communication platform, facilitating a direct connection between users and the relevant Caretaker/Supervisor for each department.
+15. **addsupervisor/** - Already implemented  
+    - Parameters: none  
+    - Description: Add a new supervisor
 
-APIs:-
+16. **removesupervisor/supervisor_id** - Already implemented  
+    - Parameters: supervisor id  
+    - Description: Remove a supervisor
 
-- **Already Implemented (**This means that API is already implemented and working as expected.**)**
-- **Lodge\_Complaint**
+17. **update supervisor/supervisor_id** - Already implemented  
+    - Parameters: supervisor id  
+    - Description: Update a particular supervisor
 
-  Lodge New Complaint
+---
 
-  API Index: 2
+## **Overview of the Module:**
 
-  Database - Complaint\_system\_studentcomplain
+The central complaint system is designed to efficiently manage and resolve issues related to electricity, hostels, and cleanliness in each campus building. The primary goal of this software is to provide a swift and effective mechanism for addressing concerns raised by individuals within the campus community, ensuring a seamless resolution process. Additionally, it serves as a communication platform, facilitating a direct connection between users and the relevant Caretaker/Supervisor for each department.
 
-- **Track\_Status**
+---
 
-  Track Status of complain
+## **APIs:**
 
-  API Index : 1
+### Already Implemented (This means that API is already implemented and working as expected.)
 
-  Database - Complain\_system\_studentcomplain
+- **Lodge_Complaint**
+  - Lodge New Complaint
+  - API Index: 2
+  - Database: Complaint_system_studentcomplain
 
-- **Response\_Complaint**
+- **Track_Status**
+  - Track Status of complaint
+  - API Index: 1
+  - Database: Complaint_system_studentcomplain
 
-  Response the lodge Complain
+- **Response_Complaint**
+  - Respond to the lodged Complaint
+  - API Index: 4
+  - Database: Complaint_system_studentcomplain
 
-  API Index: 4
+- **Change_Status**
+  - Change status of lodged complaint after resolving the complaint
+  - API Index: 4
+  - Database: Complaint_system_studentcomplain
 
-  Database - Complain\_system\_studentcomplain
-
-- **Change\_Status**
-
-  Change status of lodge complaint ,after resolving the complaint
-
-  API Index : 4
-
-  Database - Complain\_system\_studentcomplain
-
-- **View\_Complaint**
-
-  View Lodge complaint
-
-  API Index : 1,3
-
-  Database - Complain\_system\_studentcomplain
+- **View_Complaint**
+  - View Lodged Complaint
+  - API Index: 1, 3
+  - Database: Complaint_system_studentcomplain
 
 - **Feedback**
+  - Provide Feedback on the complaint
+  - API Index: 4
+  - Database: Complaint_system_studentcomplain
 
-  View Lodge complaint
+---
 
-  API Index : 4
+### Yet to be implemented or Partially Working (API is not implemented)
 
-  Database - Complain\_system\_studentcomplain
+- **Forward**: Not Implemented  
+  API has to be developed from scratch using the API provided by the FTS module. Complaints can be forwarded to the admin by the caretaker.  
+  Database: Complaint_system_studentcomplain
 
-- **Yet to be implemented or Partially Working** (API is not implemented ) **Forward: Not Implemented**
+---
 
-Api has to develop from scratch using the API provided by FTS module Complaints can be forwarded to the admin by the caretaker
+## **Current Problems You Are Facing with the Module or in Its Use Cases:**
 
-database - Complain\_system\_studentcomplain
+- Forward Complaint Functionality
 
-**Current problems you are facing with the module or in its use cases —**
+---
 
-- Forward Complain Functionality
-
-Google doc:[ API Status - GAD3](https://docs.google.com/document/d/1wd8fYVKhvaygebrva4bh33ZsFIuG8jmE6VmxOIk2biI/edit)
+**Google doc:** [API Status - GAD3](https://docs.google.com/document/d/1wd8fYVKhvaygebrva4bh33ZsFIuG8jmE6VmxOIk2biI/edit)
